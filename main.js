@@ -1,3 +1,18 @@
+document.getElementById('become').addEventListener('click', ()=>{
+    validaty("210101")
+})
+
+function validaty(num){
+    let falseOrTrue;
+    String(num).split("").filter((num)=>{
+       
+})
+Innertext(falseOrTrue)
+}
+
+validaty("123")
+
+
 // fazer o calculo para tranforma em decimal
 function binToNumber(numBi){
 
@@ -24,4 +39,15 @@ function invertArray(arrayNumbers){
      return invertNumber
 }
 
-binToNumber("0011") //precisar enviar o valor como string
+function Innertext(text){
+    const divtext = document.querySelector('.number-output')
+    console.log(divtext)
+
+    divtext.innerHTML = `<p>${text}</p>`
+    
+}
+
+
+
+ //precisar enviar o valor como string
+
